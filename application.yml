@@ -3,9 +3,9 @@ server:
 spring:
   application:
     name: spring-cloud-config-server
-  profiles:
-    active:
-      - native
+#  profiles:
+#    active:
+#      - native
 management:
   endpoints:
     web:
